@@ -42,7 +42,6 @@ message UpsertUserReq {
     optional string profile_pic =4;
     optional string platform = 5;
     optional string access_token = 6;
-    optional string stripe_id = 8;
 }
 
 message UpsertUserRes{
@@ -59,7 +58,6 @@ message UpsertUserDataRes{
     optional string profile_pic =4;
     optional string platform = 5;
     optional string access_token = 6;
-    optional string stripe_id = 8;
     int64 balance_message = 9;
 }
 
